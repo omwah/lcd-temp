@@ -1,6 +1,8 @@
 #ifndef DIGITAL_SMOOTH
 #define DIGITAL_SMOOTH
 
+#include <Arduino.h>
+
 /* digitalSmooth
  Paul Badger 2007
  A digital smoothing filter for smoothing sensor jitter
