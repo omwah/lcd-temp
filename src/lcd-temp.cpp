@@ -49,7 +49,7 @@ float convert_celsius(int sensor)
 
 void setup()
 {
-    //Serial.begin(9600);
+    Serial.begin(9600);
     lcd.clear();
     lcd.begin(16, 2);
     lcd.setCursor(0, 0);
